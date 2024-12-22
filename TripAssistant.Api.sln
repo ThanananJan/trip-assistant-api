@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripAssistant.Api", "TripAssistant.Api\TripAssistant.Api.csproj", "{285532A3-F503-4CF9-98E1-5AFD3B4FB52E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripAssistant.Library", "TripAsistant.Library\TripAssistant.Library.csproj", "{A789DB2D-DC4E-444B-BDCE-A4EE566C31BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthentication.Library", "JWTAuthentication.Library\JWTAuthentication.Library.csproj", "{AABD1954-8570-4462-99DE-0E13908914B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripAssistant.Test", "TripAssistant.Test\TripAssistant.Test.csproj", "{F8308733-D788-4CFD-83AB-22D06AFF90DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{285532A3-F503-4CF9-98E1-5AFD3B4FB52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285532A3-F503-4CF9-98E1-5AFD3B4FB52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285532A3-F503-4CF9-98E1-5AFD3B4FB52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285532A3-F503-4CF9-98E1-5AFD3B4FB52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A789DB2D-DC4E-444B-BDCE-A4EE566C31BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A789DB2D-DC4E-444B-BDCE-A4EE566C31BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A789DB2D-DC4E-444B-BDCE-A4EE566C31BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A789DB2D-DC4E-444B-BDCE-A4EE566C31BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABD1954-8570-4462-99DE-0E13908914B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABD1954-8570-4462-99DE-0E13908914B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABD1954-8570-4462-99DE-0E13908914B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABD1954-8570-4462-99DE-0E13908914B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8308733-D788-4CFD-83AB-22D06AFF90DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8308733-D788-4CFD-83AB-22D06AFF90DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8308733-D788-4CFD-83AB-22D06AFF90DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8308733-D788-4CFD-83AB-22D06AFF90DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E0230E9-0E6C-415B-BC9E-A03E9B6B0A6E}
+	EndGlobalSection
+EndGlobal

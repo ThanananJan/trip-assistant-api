@@ -1,0 +1,15 @@
+JWTAuthentication.Library/bin/
+JWTAuthentication.Library/obj/
+TripAsistant.Library/obj/
+TripAssistant.Api/TripAssistant.Api/bin/
+TripAssistant.Library/obj/
+TripAssistant.Api/TripAssistant.Api/
+TripAssistant.Api/.vs/
+TripAssistant.Api/bin/
+TripAssistant.Api/obj/
+TripAsistant.Library/bin/
+.vs/
+TripAssistant.Test/bin/
+TripAssistant.Test/obj/
+TripAssistant.Api/JwtAuth.sql
+TripAssistant.Api/TripAssistant.sql
