@@ -1,0 +1,12 @@
+﻿
+command for migration
+dotnet-ef migrations add 'initialCreateJwt' -c JwtAuthDbContext -o 'Migrations/JwtAuth'
+
+dotnet-ef migrations add 'initialCreateTrip' -c TripAssistantDbContext -o 'Migrations/TripAssistant'
+
+---
+command for generate sql script
+ 
+dotnet-ef migrations script  -c JwtAuthDbContext -o 'JwtAuth.sql'
+
+dotnet-ef migrations script -c TripAssistantDbContext -o 'TripAssistant.sql'
